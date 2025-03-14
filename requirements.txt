@@ -2,6 +2,5 @@ pandas==2.1.1
 numpy==2.2.3
 sqlalchemy==2.0.39
 snowflake-connector-python==3.14.0
-dbt==1.0.0
 apache-airflow==2.3.0
 pyodbc==5.2.0
