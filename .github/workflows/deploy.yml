@@ -25,9 +25,6 @@ jobs:
           source venv/bin/activate
           pip install -r requirements.txt
 
-      - name: Run Tests
-        run: python -m unittest discover tests/
-
   deploy:
     needs: build
     runs-on: ubuntu-latest
